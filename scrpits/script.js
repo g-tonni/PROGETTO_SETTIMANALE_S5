@@ -48,7 +48,7 @@ setInterval(function () {
   }
 }, 200) */
 
-const m = document.getElementsByTagName('g')
+/* const m = document.getElementsByTagName('g')
 const listaRandom = []
 
 setInterval(function () {
@@ -66,4 +66,4 @@ setInterval(function () {
       m[nRandomLista].setAttribute('opacity', 0)
     }
   }
-}, 100)
+}, 100) */
