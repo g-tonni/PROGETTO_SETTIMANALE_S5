@@ -100,14 +100,11 @@ h2 {
 
 /* ------------------------------------ MAIN */
 
-main {
-  padding: 35px 25px;
-}
-
 /* PRIMA PARTE */
 
 #prima-parte {
-  margin-bottom: 30px;
+  padding: 35px 25px;
+  padding-bottom: 15px;
 }
 
 /* TITOLETTO */
@@ -115,6 +112,7 @@ main {
 #trending {
   display: flex;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 #trending img {
@@ -123,7 +121,7 @@ main {
 
 h3 {
   font-size: 0.8em;
-  font-weight: 600;
+  font-weight: 700;
   color: #191919da;
 }
 
@@ -134,11 +132,12 @@ h3 {
 .numeri p {
   font-size: 1.8em;
   font-weight: 800;
-  color: #1919192f;
+  color: #19191924;
 }
 
 .account {
   display: flex;
+  align-items: center;
 }
 
 .img-account {
@@ -146,6 +145,42 @@ h3 {
   height: 20px;
   border-radius: 20px;
   background-size: cover;
+  margin-right: 10px;
+}
+
+.account p {
+  font-size: 0.7em;
+  font-weight: 500;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 0.9em;
+  margin: 12px 0;
+}
+
+.letto img {
+  display: none;
+}
+
+.letto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.data-ora {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 0.8em;
+  color: #19191998;
+}
+
+.info-trending {
+  padding: 4px 20px;
+  padding-right: 0;
+  margin-bottom: 20px;
 }
 
 .img1 {
@@ -186,4 +221,14 @@ h3 {
 }
 .img13 {
   background-image: url(../imgs/image19.jpeg);
+}
+
+hr {
+  border-color: #1919191b;
+}
+
+/* SECONDA PARTE */
+
+#seconda-parte {
+  padding: 35px 25px;
 }
