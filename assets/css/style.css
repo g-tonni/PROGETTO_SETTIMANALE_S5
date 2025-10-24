@@ -30,6 +30,12 @@ nav {
   border-bottom: 1px solid #191919;
 }
 
+#contenuto-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 nav img {
   max-width: 130px;
 }
@@ -181,7 +187,7 @@ h4 {
 .info-trending {
   padding: 4px 20px;
   padding-right: 0;
-  margin-bottom: 20px;
+  justify-content: space-between;
 }
 
 .img1 {
@@ -300,7 +306,7 @@ h5 {
 }
 
 .descrizione-articolo {
-  color: #19191974;
+  color: #19191999;
   font-size: 0.9em;
 }
 
@@ -321,4 +327,117 @@ h5 {
   border-radius: 20px;
   margin-left: 5px;
   font-size: 0.9em;
+}
+
+@media screen and (min-width: 576px) {
+  nav {
+    padding: 0 40px;
+  }
+
+  nav ul {
+    width: 60%;
+  }
+
+  nav ul li:nth-of-type(1) {
+    display: flex;
+  }
+
+  nav ul li:nth-of-type(2) {
+    display: flex;
+  }
+
+  nav ul li:nth-of-type(3) {
+    display: flex;
+  }
+
+  #title {
+    padding: 0 40px;
+  }
+
+  #prima-parte {
+    padding: 40px;
+    padding-bottom: 20px;
+  }
+
+  #elenco-trending {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .elementi-trending {
+    width: 45%;
+    padding-right: 20px;
+  }
+
+  #seconda-parte {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  article img {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    padding: 0;
+  }
+
+  #contenuto-nav {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  nav ul {
+    width: 50%;
+  }
+
+  #title {
+    width: 85%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 5em;
+  }
+
+  #title button {
+    font-size: 1em;
+    padding: 5px 30px;
+  }
+
+  #prima-parte {
+    width: 85%;
+    padding: 40px 0 20px 0;
+    margin: 0 auto;
+  }
+
+  .elementi-trending {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+
+  #seconda-parte {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  #link-utili {
+    order: 1;
+    width: 27%;
+  }
+
+  #elenco-articoli {
+    width: 70%;
+  }
+
+  article img {
+    width: 25%;
+  }
 }
