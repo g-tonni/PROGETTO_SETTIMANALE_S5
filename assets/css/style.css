@@ -17,23 +17,35 @@ header {
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid #191919;
+  overflow: hidden;
 }
 
 /* NAVBAR */
 
 nav {
+  position: fixed;
+  top: 0;
   display: flex;
-  justify-content: space-between;
+  width: 100%;
+  justify-content: center;
   align-items: center;
-  padding: 0 25px;
+  padding: 0;
+  margin: 0 auto;
   height: 60px;
   border-bottom: 1px solid #191919;
+  z-index: 1;
+  background-color: #ffc017;
+  transition: background-color 0.5s ease;
+}
+
+.colore-nav {
+  background-color: white;
 }
 
 #contenuto-nav {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 90%;
 }
 
 nav img {
@@ -44,7 +56,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 155px;
+  width: 40%;
 }
 
 nav ul li {
@@ -54,9 +66,14 @@ nav ul li {
 nav ul button {
   border: none;
   border-radius: 50px;
-  background-color: #191919;
   color: white;
   padding: 10px 15px;
+  background-color: #191919;
+  transition: background-color 0.5s ease;
+}
+
+.colore-bottone {
+  background-color: #1a8917;
 }
 
 nav ul li:nth-of-type(1) {
@@ -74,10 +91,13 @@ nav ul li:nth-of-type(3) {
 #title {
   padding: 25px;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin: auto 0;
   width: 100%;
+}
+
+#svg-m {
+  display: none;
 }
 
 h1 {
@@ -330,8 +350,8 @@ h5 {
 }
 
 @media screen and (min-width: 576px) {
-  nav {
-    padding: 0 40px;
+  #contenitore-nav {
+    width: 78%;
   }
 
   nav ul {
@@ -352,6 +372,20 @@ h5 {
 
   #title {
     padding: 0 40px;
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  #contenitore-svg {
+    width: 40%;
+    height: 100%;
+  }
+
+  #svg-m {
+    display: flex;
+    height: 100%;
+    width: 190%;
+    transform: translate(-100px, 28px);
   }
 
   #prima-parte {
@@ -410,6 +444,17 @@ h5 {
     padding: 5px 30px;
   }
 
+  #contenitore-svg {
+    width: 50%;
+    height: 100%;
+  }
+
+  #svg-m {
+    height: 100%;
+    width: 200%;
+    transform: translate(0, 0);
+  }
+
   #prima-parte {
     width: 85%;
     padding: 40px 0 20px 0;
@@ -424,6 +469,7 @@ h5 {
   #seconda-parte {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     width: 85%;
     margin: 0 auto;
   }
@@ -431,6 +477,8 @@ h5 {
   #link-utili {
     order: 1;
     width: 27%;
+    position: sticky;
+    top: 80px;
   }
 
   #elenco-articoli {
@@ -474,7 +522,7 @@ h5 {
   }
 
   nav ul {
-    width: 30%;
+    width: 40%;
   }
 
   #title {
