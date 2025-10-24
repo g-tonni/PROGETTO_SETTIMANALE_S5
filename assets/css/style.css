@@ -100,4 +100,90 @@ h2 {
 
 /* ------------------------------------ MAIN */
 
+main {
+  padding: 35px 25px;
+}
+
 /* PRIMA PARTE */
+
+#prima-parte {
+  margin-bottom: 30px;
+}
+
+/* TITOLETTO */
+
+#trending {
+  display: flex;
+  align-items: center;
+}
+
+#trending img {
+  margin-right: 10px;
+}
+
+h3 {
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #191919da;
+}
+
+.elementi-trending {
+  display: flex;
+}
+
+.numeri p {
+  font-size: 1.8em;
+  font-weight: 800;
+  color: #1919192f;
+}
+
+.account {
+  display: flex;
+}
+
+.img-account {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-size: cover;
+}
+
+.img1 {
+  background-image: url(../imgs/image01.jpeg);
+}
+.img2 {
+  background-image: url(../imgs/image02.png);
+}
+.img3 {
+  background-image: url(../imgs/image03.jpeg);
+}
+.img4 {
+  background-image: url(../imgs/image04.png);
+}
+.img5 {
+  background-image: url(../imgs/image05.jpeg);
+}
+.img6 {
+  background-image: url(../imgs/image06.png);
+}
+.img7 {
+  background-image: url(../imgs/image07.jpeg);
+}
+.img8 {
+  background-image: url(../imgs/image09.jpeg);
+}
+.img9 {
+  background-image: url(../imgs/image11.jpeg);
+}
+.img10 {
+  background-image: url(../imgs/image13.png);
+}
+.img11 {
+  background-image: url(../imgs/image15.jpeg);
+}
+.img12 {
+  background-image: url(../imgs/image17.png);
+}
+.img13 {
+  background-image: url(../imgs/image19.jpeg);
+}
