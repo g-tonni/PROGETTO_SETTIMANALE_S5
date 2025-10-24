@@ -434,10 +434,62 @@ h5 {
   }
 
   #elenco-articoli {
-    width: 70%;
+    width: 65%;
   }
 
   article img {
     width: 25%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #contenuto-nav {
+    width: 65%;
+  }
+
+  nav ul {
+    width: 40%;
+  }
+
+  #title {
+    width: 65%;
+  }
+
+  #prima-parte {
+    width: 65%;
+  }
+
+  #seconda-parte {
+    width: 65%;
+  }
+
+  #elenco-articoli {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  #contenuto-nav {
+    width: 50%;
+  }
+
+  nav ul {
+    width: 30%;
+  }
+
+  #title {
+    width: 50%;
+  }
+
+  #prima-parte {
+    width: 50%;
+  }
+
+  #seconda-parte {
+    width: 50%;
+  }
+
+  #elenco-articoli {
+    width: 65%;
   }
 }
