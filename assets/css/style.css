@@ -232,3 +232,37 @@ hr {
 #seconda-parte {
   padding: 35px 25px;
 }
+
+#link-utili {
+  margin-bottom: 35px;
+}
+
+#link-utili h3 {
+  margin-bottom: 15px;
+}
+
+#link-utili button {
+  background-color: transparent;
+  padding: 8px 10px;
+  font-size: 0.7em;
+  margin: 3px;
+  margin-left: 0;
+  color: #19191974;
+  border: 1px solid #19191935;
+}
+
+#link-utili hr {
+  margin: 25px 0;
+}
+
+#link-utili ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#link-utili ul li {
+  color: #19191974;
+  font-size: 0.9em;
+  margin: 6px 20px;
+  margin-left: 0;
+}
